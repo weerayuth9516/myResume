@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 header {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 747px;
   background-color: #ffffff;
   display: flex;
@@ -21,10 +19,6 @@ header {
   background-image: linear-gradient(#f6f4f1, #f6f4f1);
   transform: skewY(-6deg);
   transform-origin: top left;
-}
-
-.header_bg:hover{
-    border: 5px solid #0699a6;
 }
 
 .container-all {
@@ -53,10 +47,6 @@ header {
   font-weight: 700;
   color: #9e8c6c;
 }
-.detail-title:hover {
-  text-decoration: 5px underline;
-  text-decoration-color: lightblue;
-}
 
 .my-name {
   font-family: "Playfair Display", serif;
@@ -64,11 +54,6 @@ header {
   color: #000000;
   font-weight: 900;
   text-align: left;
-}
-
-.my-name:hover {
-  text-decoration: 5px underline;
-  text-decoration-color: lightblue;
 }
 
 .contact-me-button {
@@ -126,6 +111,15 @@ header {
   position: absolute;
   width: 100%;
   height: 100%;
+  animation: anim 10s linear infinite;
+}
+@keyframes anim{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 .text span {
   position: absolute;
@@ -138,5 +132,3 @@ header {
   color: #9e8c6c;
   font-family: "PT Sans Narrow", sans-serif;
 }
-
-
