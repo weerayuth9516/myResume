@@ -11,7 +11,7 @@ function Header() {
         <div className="container-logo-detail">
           <div className="image-logo">
             <div className="image-profile">
-              <img src="src\image\imageProfile.png" alt="image profile" />
+              <img src="/image/imageProfile.png" alt="image profile" />
             </div>
             <div className="curve-text">
               <div className="text">

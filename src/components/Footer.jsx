@@ -11,10 +11,10 @@ function Footer() {
         <a href="https://mail.google.com/mail/?view=cm&to=weerayuth9516@gmail.com," target="_blank">weerayuth9516@gmail.com</a> | 093-9959516
         </div>
         <div className="social-icon">
-          <img src="src\image\facebook.png" />
-          <img src="src\image\instagram.png" />
-          <img src="src\image\linkedin.png" />
-          <img src="src\image\twitter.png" />
+          <img src="/image/facebook.png" />
+          <img src="/image/instagram.png" />
+          <img src="/image/linkedin.png" />
+          <img src="/image/twitter.png" />
         </div>
       </div>
     </footer>
