@@ -31,7 +31,7 @@ function Header() {
             <div className="detail-title">DESIGN / DEVELOPER</div>
             <div className="my-name">Weerayuth</div>
             <div className="my-name"> Aridej</div>
-            <button className="contact-me-button">Contact Me</button>
+            <a href="https://mail.google.com/mail/?view=cm&to=weerayuth9516@gmail.com," target="_blank"><button className="contact-me-button">Contact Me</button></a>
           </div>
         </div>
       </div>

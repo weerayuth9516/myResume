@@ -8,7 +8,7 @@ function Footer() {
       <div className="contact-container">
         <div className="footer-title">Get in touch!</div>
         <div className="contact-detail">
-          weerayuth9516@gmail.com | 093-9959516
+        <a href="https://mail.google.com/mail/?view=cm&to=weerayuth9516@gmail.com," target="_blank">weerayuth9516@gmail.com</a> | 093-9959516
         </div>
         <div className="social-icon">
           <img src="src\image\facebook.png" />

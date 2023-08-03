@@ -62,11 +62,12 @@ header {
   font-weight: 700;
   color: #ffffff;
   width: 180px;
-  height: 70px;
+  height: 50px;
   background-color: #0699a6;
   border: 4px solid transparent;
   box-sizing: border-box;
 }
+
 .contact-me-button:hover {
   border: 4px solid lightblue;
 }

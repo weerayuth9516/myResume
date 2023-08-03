@@ -1,5 +1,118 @@
-.content {
-    width: 1440px;
-    height: 1559px;
-    background-color: black;
+content {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box {
+  width: 1135px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-sidebar {
+  width: 350px;
+  min-height: 1569px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-sidebar {
+  width: 350px;
+  text-align: left;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.sidebar-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  color: #9e8c6c;
+}
+.sidebar-sub-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+.recent-work {
+  color: #0699a6;
+  font-weight: bold;
+}
+.right-content {
+  width: 635px;
+  min-height: 1569px;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: #000000;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.right-content-description {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  text-align: left;
+}
+.box-of-sub-title{
+    display: flex;
+    justify-content: space-between;
+}
+.during-the-time{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 18px;
+    font-weight:normal;
+    color: black;
+}
+.right-content-sub-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #9e8c6c;
+  text-align: left;
+}
+.about-me {
+  position: relative;
+  width: 635px;
+  height: 326px;
+  margin-top: -50px;
+}
+.color-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 71px;
+  height: 10px;
+  background-color: #0699a6;
+}
+.experience {
+  margin-bottom: 20px;
+}
+.box-education-color-bar {
+  width: 635px;
+  height: 250px;
+  position: relative;
+}
+.color-bar-education {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 71px;
+  height: 10px;
+  background-color: #0699a6;
+}
+.edcucation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+a {
+    color:#0699a6;
 }

@@ -44,6 +44,9 @@ footer {
   font-weight: bold;
   margin-top: 40px;
 }
+.contact-detail a {
+  text-decoration: none;
+}
 .social-icon {
   width: 40%;
   height: 20%;
