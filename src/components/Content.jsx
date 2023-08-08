@@ -61,7 +61,7 @@ function Content() {
             <div className="sidebar-sub-title recent-work">
               <p>
                 <a
-                  href="https://deluxe-lokum-67e077.netlify.app/"
+                  href="http://zingy-smakager-fe3322.netlify.app/"
                   target="_blank"
                 >
                   add Product To Cart →
