@@ -78,6 +78,7 @@ header {
   width: 420px;
   height: 400px;
   margin-right: 150px;
+  object-fit: contain;
 }
 
 .image-profile img {

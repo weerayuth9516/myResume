@@ -60,6 +60,14 @@ function Content() {
             <div className="sidebar-title">recent works</div>
             <div className="sidebar-sub-title recent-work">
               <p>
+              <a
+                  href="https://travel-place.netlify.app/"
+                  target="_blank"
+                >
+                  Tourist Attraction →
+                </a>
+              </p>
+              <p>
                 <a
                   href="http://zingy-smakager-fe3322.netlify.app/"
                   target="_blank"
