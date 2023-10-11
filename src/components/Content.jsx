@@ -60,10 +60,15 @@ function Content() {
             <div className="sidebar-title">recent works</div>
             <div className="sidebar-sub-title recent-work">
               <p>
-              <a
-                  href="https://travel-place.netlify.app/"
+                <a
+                  href="https://earnest-centaur-ab827d.netlify.app/"
                   target="_blank"
                 >
+                  Free Online Courses →
+                </a>
+              </p>
+              <p>
+                <a href="https://travel-place.netlify.app/" target="_blank">
                   Tourist Attraction →
                 </a>
               </p>
