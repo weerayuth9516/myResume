@@ -77,7 +77,7 @@ function Content() {
                   href="http://zingy-smakager-fe3322.netlify.app/"
                   target="_blank"
                 >
-                  add Product To Cart →
+                  Add Product To Cart →
                 </a>
               </p>
               <p>
